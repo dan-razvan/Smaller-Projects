@@ -2,4 +2,4 @@
 
 ## Gif Demo
 
-![split-landing-page](split-page.gif)
+![split-landing-page](images/split-page.gif)
