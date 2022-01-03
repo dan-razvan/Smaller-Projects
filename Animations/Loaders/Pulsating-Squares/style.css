@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    /* margin: 0; */
+    position: relative;
+    height: 100vh;
+    background-color: #e7e3e3;
+    
+}
+
+.square1 {
+    position: absolute;
+    position: absolute;
+    left: calc(50% - 20px);
+    top: calc(50% - 20px);
+    height: 40px;
+    width: 40px;
+    background-color: #3498db;
+    animation-name: squareloader1;
+    animation-duration: 1s;
+    animation: squareloader1 1s ease-in-out infinite;
+
+}
+.square2 {
+    position: absolute;
+    position: absolute;
+    left: calc(50% - 20px);
+    top: calc(50% - 20px);
+    height: 40px;
+    width: 40px;
+    background-color: #3498db;
+    animation: squareloader2 1s ease-in-out infinite;
+}
+.square3 {
+    position: absolute;
+    position: absolute;
+    left: calc(50% - 20px);
+    top: calc(50% - 20px);
+    height: 40px;
+    width: 40px;
+    background-color: #3498db;
+    animation: squareloader3 1s ease-in-out infinite;
+}
+.square4 {
+    position: absolute;
+    position: absolute;
+    left: calc(50% - 20px);
+    top: calc(50% - 20px);
+    height: 40px;
+    width: 40px;
+    background-color: #3498db;
+}
+
+@keyframes squareloader1 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(60px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+@keyframes squareloader2 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(60px, 60px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+@keyframes squareloader3 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(0, 60px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
