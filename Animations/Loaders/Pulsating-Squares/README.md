@@ -1,4 +1,4 @@
 # Pulsating Loader
 
 ## Gif Demo
-![loader](squares.gif)
+![loader](gif/squares.gif)
