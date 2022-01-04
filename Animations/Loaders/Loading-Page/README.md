@@ -1,4 +1,4 @@
 # Loading Circle
 
 ## Gif Demo
-![loading-circle](gif/loading-circle.gif)
+![loading-circle](gif/circular-loading.gif)
